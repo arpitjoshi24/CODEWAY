@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+    body{
+        font-family: 'Poppins', sans-serif;
+      }
+      #home{
+        background-image: url(https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .icon {
+        height: 100%;
+        width: 100%;
+    }
+    .counter {
+        
+        color: black;
+        height: 1.4rem;
+        width: 1.4rem;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -25%;
+        right: -25%;
+    }
+    </style>
+</head>
+<body>
+    <!-- navbar section -->
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          
+          </svg>
+          <span class="ml-3 text-xl">shopBeast</span>
+        </a>
+        <nav class="md:ml-auto md:mr-auto sm:flex sm:flex-wrap items-center text-base justify-center">
+          <a class="mr-5 sm:block grid grid-cols-2 hover:bg-black  hover:text-white p-2 rounded-full">Categaries</a>
+          <a class="mr-5 sm:block grid grid-cols-2 hover:bg-black  hover:text-white p-2 rounded-full">deals</a>
+          <a class="mr-5 sm:block grid grid-cols-2  hover:bg-black  hover:text-white p-2 rounded-full">What's New</a>
+          <a class="mr-5 sm:block grid grid-cols-2  hover:bg-black  hover:text-white p-2 rounded-full">delievery</a>
+          <input type="text" id="name" name="name" placeholder="Search Product" class=" hidden sm:block px-2 py-1 border-black border border-2 rounded-lg focus:outline-none focus:ring focus:border-blue-300" required>
+        </nav>
+        <div class=" flex ">
+          
+             <img class="mt-6 sm:mt-0 flex-row " src="https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63eb3dec9d6ee83660ebe1de_user.png">
+          <a href="login.html" class="flex-row mr-6 mt-6 sm:mt-0"> account</a>
+          
+           
+          <div class=" cart">
+            <img class="icon mt-6 sm:mt-0" src="https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63eb3dec9b865e78d4ff6b8d_shopping-cart-add.png" alt="icon" />
+            <div class="counter mt-6 sm:mt-0">1</div>
+          </div>
+            
+            <p class="flex-row mr-12 mt-6 sm:mt-0"> cart</p>
+        </div>
+       
+      </div>
+    </header>
+    
+      <!-- homesection -->
+      <section class="bg-indigo-500 pt-40 pb-24 pl-24 " id="home" >
+      <p class="text-3xl sm:text-5xl md:text-7xl ">Shopping And</p>
+      <p class="text-3xl  sm:text-5xl md:text-7xl pt-3 sm:pt-6 "> Department Store.</p>
+      <p class=" text-md sm:text-lg md:text-xl mt-8  "> Shopping is a bit of relaxing hobby for me, which </p>
+      <p class=" text-md sm:text-lg md:text-xl mt-2 "> is sometimes  troubling for the bank balance.</p>
+      <button class="rounded-2xl bg-green-800  hover:bg-green-900 p-2 mt-8 text-white" > Learn More  </button>
+      </section>
+      </body>
